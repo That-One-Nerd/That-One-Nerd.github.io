@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+*
+{
+    box-sizing: border-box;
+}
+
+::selection
+{
+    background-color: rgba(255, 153, 17, 0.5);
+}
+
+a
+{
+    color: #f91;
+    position: relative;
+    text-decoration: none;
+}
+
+body
+{
+    background-color: white;
+    color: black;
+    font-family: 'Readex Pro', 'Roboto', 'sans-serif';
+    font-size: 25px;
+    margin: 0px;
+}
+
+i
+{
+    color: #f91;
+}
+
+i ::selection
+{
+    color: default;
+}
+
+li
+{
+    margin-left: 5%;
+    text-align: left;
+}
+
+a:after
+{
+    background-color: #f91;
+    bottom: 0;
+    content: '';
+    height: 2px;
+    left: 0;
+    position: absolute;
+    transform: scale(0, 1);
+    transform-origin: bottom right;
+    width: 100%;
+
+    transition: transform 0.25s;
+}
+
+a:hover:after
+{
+    transform: scale(1, 1);
+    transform-origin: bottom left;
+}
+
+.column
+{
+    float: left;
+}
+
+.float-left
+{
+    float: left;
+    text-align: left;
+}
+
+.float-right
+{
+    float: right;
+    text-align: right;
+}
+
+.footer
+{
+    background-color: #303030;
+    color: #505050;
+    font-size: 1.75vw;
+    margin: 0;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.formattable code
+{
+    background-color: #303030;
+    border-radius: 7.5px;
+    bottom: 2px;
+    color: white;
+    font-family: 'Roboto Mono', 'Roboto', 'sans-serif';
+    font-size: 70%;
+    padding-left: 5px;
+    padding-right: 5px;
+    position: relative;
+}
+
+.formattable-codeblock
+{
+    background-color: #303030;
+    border-radius: 10px;
+    color: white;
+    font-family: 'Roboto Mono', 'Roboto', 'sans-serif';
+    font-size: 75%;
+    padding-bottom: 2.5px;
+    padding-top: 2.5px;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: left;
+    width: 90%;
+}
+
+.formattable h1, .formattable h2, .formattable h3, .formattable h4, .formattable h5, .formattable h6
+{
+    font-family: 'Outfit', 'Readex Pro', 'Roboto', 'sans-serif';
+}
+
+.formattable s
+{
+    text-decoration-thickness: 2px;
+}
+
+.formattable table
+{
+    background-color: rgba(0, 0, 0, 0.5);
+    border-collapse: collapse;
+    margin-left: 2.5%;
+    width: 95%;
+}
+
+.formattable td
+{
+    text-align: left;
+}
+
+.formattable td, .formattable th
+{
+    border-style: solid;
+    border-width: 2.5px;
+}
+
+.formattable tr:nth-child(even)
+{
+    background-color: rgba(255, 255, 255, 0.25);
+}
+
+.header
+{
+    background-color: #303030;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    top: 0;
+    z-index: 100;
+}
+
+.header a
+{
+    color: white;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+}
+
+.nomargin
+{
+    margin: 0;
+}
+
+.nopadding
+{
+    padding: 0;
+}
+
+.row:after
+{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.whitelink
+{
+    color: white;
+}
+
+.whitelink:after
+{
+    background-color: white;
+}
+
+.whiteselection ::selection
+{
+    background-color: rgba(255, 255, 255, 0.5);
+}

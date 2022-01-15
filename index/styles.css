@@ -1,0 +1,115 @@
+.hiring
+{
+    background-color: #303030;
+    color: white;
+    font-size: 1.75vw;
+    padding-bottom: 50px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.hiring h2
+{
+    color: #f91;
+}
+
+.row
+{
+    float: right;
+    margin: 0;
+    height: 300px;
+    width: 100%;
+}
+
+.title
+{
+    background-color: #f91;
+    color: #000;
+    text-align: center;
+    margin-top: 71px;
+    padding-bottom: 100px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 100px;
+}
+
+.thelatest
+{
+    background-color: #f91;
+    font-size: 1.75vw;
+    margin: 0;
+    padding-bottom: 75px;
+    padding-right: 6.25%;
+    padding-top: 25px;
+    text-align: center;
+}
+
+.title h1
+{
+    font-size: 300%;
+    margin: 0px;
+}
+
+.whatido
+{
+    float: none;
+    font-size: 1.6vw;
+    padding-bottom: 100px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 100px;
+    margin-top: 35vw;
+}
+
+#about-left
+{
+    width: 45%;
+}
+
+#about-left img
+{
+    padding-bottom: 50px;
+    padding-left: 7.5%;
+    padding-right: 7.5%;
+    padding-top: 50px;
+    width: 85%;
+}
+
+#about-right
+{
+    font-size: 1.4vw;
+    padding-bottom: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    text-align: right;
+    width: 55%;
+}
+
+#hiring-triangle-bottom
+{
+    width: 0;
+    height: 0;
+    border-left: solid 100vw;
+    border-top: solid 50px;
+    border-color: #303030 #303030 #f91 #f91;
+}
+
+#hiring-triangle-top
+{
+    width: 0;
+    height: 0;
+    border-right: solid 100vw;
+    border-bottom: solid 50px;
+    border-color: transparent transparent #303030 #303030;
+}
+
+#title-triangle
+{
+    width: 0;
+    height: 0;
+    border-left: solid 100vw;
+    border-top: solid 50px;
+    border-color: #f91 #f91 transparent transparent;
+}
