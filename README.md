@@ -1,2 +1,3 @@
 # That-One-Nerd.github.io
-My custom made website.
+
+This is the github code for `thatonenerd.net`.
