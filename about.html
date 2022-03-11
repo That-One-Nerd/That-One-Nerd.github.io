@@ -2,15 +2,67 @@
 
 <html>
     <head>
+        <link href = "global/globalStyles.css" rel = "stylesheet" type = "text/css">
         <link href = "about/styles.css" rel = "stylesheet" type = "text/css">
-        <link href = "index/styles.css" rel = "stylesheet" type = "text/css">
         <link rel="icon" type="image/x-icon" href="global/images/favicon.ico">
         
         <title>About Me | That_One_Nerd</title>
     </head>
     <body>
-        <h1>This page is not ready yet. Sorry! Come back soon for more.</h1>
-        <h2>P.S. This is the next page to be worked on.</h2>
-        <a href = "index.html">Go home</a>
+        <div class = "header whiteselection">
+            <a href = "index.html">Home</a>
+            <a href = "about.html">About</a>
+            <a href = "games.html">Games</a>
+            <a href = "links.html">Links</a>
+            <a href = "news.html">News</a>
+        </div>
+
+        <div class = "formattable title whiteselection">
+            <h1>About Me</h1>
+            <h2>My name is Kyle. I am 14 years old. I am a Software and Game Developer.</h2>
+        </div>
+        <div id = "triangle-title"></div>
+
+        <div class = "formattable interests">
+            <h2>What are my interests?</h2>
+            <p>I love software development and logical thinking, such as</p>
+            <ul>
+                <li>Graphical programming (not to be confused with graphic design)</li>
+                <li>General algorithm development</li>
+                <li>Library development</li>
+                <li>Game development</li>
+            </ul>
+            <p>Graphical programming is my latest hobby, and also the one I am the least saavy at. But I'm getting there sooner or later.</p>
+        </div>
+        <div id = "triangle-skills"></div>
+        <div class = "formattable skills whiteselection">
+            <h2>What are my skills?</h2>
+            <p>I can program in</p>
+            <ul>
+                <li><img src = "about/logos/csharp.svg">C#</li>
+                <li><img src = "about/logos/java.png">Java</li>
+                <li><img src = "about/logos/cplusplus.png">C++</li>
+                <li><img src = "about/logos/python.webp">Python</li>
+            </ul>
+            <p class = "nomargin">This is ranked in my expertise in each language. I am the best at C#, decent at Java and C++, and <i>okay</i> at Python.</p>
+        </div>
+        <div id = "triangle-tools"></div>
+        <div class = "formattable tools whitelink whiteselection">
+            <h2 class = "nomargin">What tools am I fluent in?</h2>
+            <ul>
+                <li>I use <a href = "https://visualstudio.microsoft.com/vs/" target = "_blank">Visual Studio 2022</a> for my C# and C++ development.</li>
+                <li>I use <a href = "https://www.jetbrains.com/idea/" target = "_blank">IntelliJ IDEA</a> and <a href = "https://code.visualstudio.com/" target = "_blank">Visual Studio Code</a> for Java development.</li>
+                <li>I use <a href = "https://www.jetbrains.com/pycharm/" target = "_blank">Pycharm</a> for Python development.</li>
+                <li>I use <a href = "https://unity.com/" target = "_blank">Unity</a> and <a href = "https://www.unrealengine.com/en-US/" target = "_blank">Unreal Engine</a> for game development.</li>
+            </ul>
+        </div>
+        <div id = "triangle-contact"></div>
+        <div class = "formattable contact">
+            <h2>How can you contact me?</h2>
+            <p>My preferred email for contact is <a href = "mailto:dev@thatonenerd.net" target = "_blank">dev@thatonenerd.net</a>.</p>
+        </div>
+        <div class = "formattable footer whiteselection">
+            <h6 class = "nomargin"><b>That_One_Nerd</b> 2022</h6>
+        </div>
     </body>
 </html>

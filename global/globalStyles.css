@@ -20,15 +20,6 @@ a
     text-decoration: none;
 }
 
-body
-{
-    background-color: white;
-    color: black;
-    font-family: 'Readex Pro', 'Roboto', 'sans-serif';
-    font-size: 1.5vw;
-    margin: 0;
-}
-
 a:after
 {
     background-color: #f91;
@@ -42,6 +33,20 @@ a:after
     width: 100%;
 
     transition: transform 0.25s;
+}
+
+a::selection
+{
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+body
+{
+    background-color: white;
+    color: black;
+    font-family: 'Readex Pro', 'Roboto', 'sans-serif';
+    font-size: 1.5vw;
+    margin: 0;
 }
 
 a:hover:after
@@ -194,17 +199,22 @@ li
     clear: both;
 }
 
-.whitelink
+.whitelink a
 {
     color: white;
 }
 
-.whitelink:after
+.whitelink a:after
 {
     background-color: white;
 }
 
-.whiteselection ::selection
+.whitelink a::selection
+{
+    background-color: rgba(255, 153, 17, 0.5);
+}
+
+.whiteselection::selection, .whiteselection h1::selection, .whiteselection h2::selection, .whiteselection h3::selection, .whiteselection h4::selection, .whiteselection h5::selection, .whiteselection h6::selection, .whiteselection li::selection, .whiteselection a::selection, .whiteselection p::selection, .whiteselection i::selection, .whiteselection img::selection
 {
     background-color: rgba(255, 255, 255, 0.5);
 }
