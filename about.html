@@ -2,68 +2,89 @@
 
 <html>
     <head>
-        <link href = "global/globalStyles.css" rel = "stylesheet" type = "text/css">
-        <link href = "about/styles.css" rel = "stylesheet" type = "text/css">
-        <link href = "global/images/favicon.ico" rel = "icon" type = "image/x-icon">
+        <link type="image/x-icon" rel="icon" href="/images/favicon.ico">
+        <link type="text/css" rel="stylesheet" href="/css/global.css">        
+        <link type="text/css" rel="stylesheet" href="/css/about.css">
+
+        <meta charset="utf-8">
+        <meta name="description" content="Hi. I'm a %age%-year-old software developer.">
+        <meta name="keywords" content="That_One_Nerd, That One Nerd, ThatOneNerd, That-One-Nerd">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <title>About Me | That_One_Nerd</title>
     </head>
+
+    <!--header-->
+
     <body>
-        <div class = "header whiteselection">
-            <a href = "index.html">Home</a>
-            <a href = "about.html">About</a>
-            <a href = "games.html">Games</a>
-            <a href = "links.html">Links</a>
-            <a href = "news.html">News</a>
-        </div>
-
-        <div class = "formattable title whiteselection">
+        <div id="title">
             <h1>About Me</h1>
-            <h2>My name is Kyle. I am 14 years old. I am a Software and Game Developer.</h2>
         </div>
-        <div id = "triangle-title"></div>
+        
+        <div class="line-spacer"></div>
+        <div class="line-spacer2"></div>
 
-        <div class = "formattable interests">
-            <h2>What are my interests?</h2>
-            <p>I love software development and logical thinking, such as</p>
+        <div class="field" id="intro">
+            <div id="intro-left">
+                <img src="images/logofullres.png">
+            </div>
+            <div id="intro-right">
+                <p class="js-check-vars">
+                    Hey there. I'm Kyle. I am %age% years old and I like to program as a hobby.
+                    <br><br>
+                    I've been programming for almost %start% years now, right at the start of Covid-19, and it was love at first sight. I don't plan on stopping anytime soon.
+                    <br><br>
+                    I originally started with the programming language C#, but since then I've spread to other languages, namely C++, Python, Java, and JavaScript.
+                </p>
+            </div>
+        </div>
+
+        <div class="field" id="interests">
+            <p>I love software development and logical thinking. Some fields I have an interest in are (in no particular order):</p>
             <ul>
                 <li>Graphical programming (not to be confused with graphic design)</li>
                 <li>General algorithm development</li>
                 <li>Library development</li>
                 <li>Game development</li>
+                <li>Server and website development</li>
             </ul>
-            <p>Graphical programming is my latest hobby, and also the one I am the least saavy at. But I'm getting there sooner or later.</p>
+            <p>Here's how I'd rate my programming skills</p>
+            <img id="skills-img" src="images/about/programmingskills.png">
+            <div id="skills-float">
+                <div id="skills-float-left">
+                    <p>Beginner</p>
+                </div>
+                <div id="skills-float-right">
+                    <p>Expert</p>
+                </div>
+            </div>
+            <p>I'm definitely no expert (compared to some serious computer scientists I look up to), but I'd say I'm past the Intermediate stage. Somewhere in the middle of those two.</p>
         </div>
-        <div id = "triangle-skills"></div>
-        <div class = "formattable skills whiteselection">
-            <h2>What are my skills?</h2>
-            <p>I can program in</p>
+
+        <div class="field" id = "what-ive-done">
+            <p>Here's some noteworthy stuff I've done:</p>
             <ul>
-                <li><img src = "about/logos/csharp.png">C#</li>
-                <li><img src = "about/logos/java.png">Java</li>
-                <li><img src = "about/logos/cplusplus.png">C++</li>
-                <li><img src = "about/logos/html.png">HTML and <img src = "about/logos/css.png">CSS</li>
-                <li><img src = "about/logos/python.png">Python</li>
+                <li>Created and maintained <a href="https://github.com/That-One-Nerd/Nerd_STF" target="_blank">Nerd_STF</a> as a solo project.</li>
+                <li>Created <a href="https://that-one-nerd.itch.io/trick-or-treat" target="_blank">Trick Or Treat</a>, <a href="https://that-one-nerd.itch.io/rebuild">Rebuild</a>, and some other small Itch games.</li>
+                <li>Developing Brigade Laboratories, a game that I'm staying mostly secretive about. <a href="/projects/brigadelabs.html">Learn More</a></li>
             </ul>
-            <p class = "nomargin">This is ranked in my expertise in each language. I am the best at C#, decent at Java and C++, and <i>okay</i> at Python.</p>
+
+            <br><br><br><br><br>
+
+            <p>I like to reinvent the wheel in software development. For example, Nerd_STF. I know there is a bunch in Nerd_STF that already exists in a different library, and it's likely better. But I feel like doing it myself teaches me more than just using somebody else's code. I wouldn't have learned nearly as much if I just used a different library.</p>
         </div>
-        <div id = "triangle-tools"></div>
-        <div class = "formattable tools whitelink whiteselection">
-            <h2 class = "nomargin">What tools am I fluent in?</h2>
-            <ul>
-                <li>I use <a href = "https://visualstudio.microsoft.com/vs/" target = "_blank">Visual Studio 2022</a> for my C# and C++ development.</li>
-                <li>I use <a href = "https://www.jetbrains.com/idea/" target = "_blank">IntelliJ IDEA</a> and <a href = "https://code.visualstudio.com/" target = "_blank">Visual Studio Code</a> for Java development.</li>
-                <li>I use <a href = "https://www.jetbrains.com/pycharm/" target = "_blank">Pycharm</a> for Python development.</li>
-                <li>I use <a href = "https://unity.com/" target = "_blank">Unity</a> and <a href = "https://www.unrealengine.com/en-US/" target = "_blank">Unreal Engine</a> for game development.</li>
-            </ul>
+
+        <div class="field" id="outro">
+            <p>That's all I have to say. If you want to contact me, you can at <a href="mailto:kyle@thatonenerd.net">kyle@thatonenerd.net</a></p>
         </div>
-        <div id = "triangle-contact"></div>
-        <div class = "formattable contact">
-            <h2>How can you contact me?</h2>
-            <p>My preferred email for contact is <a href = "mailto:dev@thatonenerd.net" target = "_blank">dev@thatonenerd.net</a>.</p>
-        </div>
-        <div class = "formattable footer whiteselection">
-            <h6 class = "nomargin"><b>That_One_Nerd</b> 2022</h6>
-        </div>
+        
+        <div class="line-spacer"></div>
+        <div class="line-spacer2-darkgray"></div>
     </body>
+
+    <!--footer-->
+
+    <script type="module" src="/js/imports.js"></script>
+    <script src="/js/global.js" defer></script>
+    <script src="/js/about.js" defer></script>
 </html>

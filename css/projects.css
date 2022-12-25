@@ -1,0 +1,156 @@
+.project
+{
+    background-color: #E0E0E0;
+    border-color: #fff;
+    border-radius: 0.5vw;
+    border-style: solid;
+    border-width: 0.25vw;
+    font-size: 1.25vw;
+    padding: 5vw;
+    margin: 7.5vw 15vw 7.5vw 15vw;
+    text-align: center;
+}
+.project img
+{
+    border-radius: 1vw;
+    margin-bottom: 2.5vw;
+    width: 25%;
+}
+
+#arcademaniac a
+{
+    color: #e72a00;
+}
+#arcademaniac a::after
+{
+    background-color: #e72a00;
+}
+#arcademaniac h2
+{
+    color: #6fe700;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+#arcademaniac img
+{
+    margin: -1vw;
+    width: 50%;
+}
+
+#brigadelabs
+{
+    background-color: #303030;
+    color: #E0E0E0;
+}
+#brigadelabs img
+{
+    margin: -2.5vw;
+    width: 37.5%;
+}
+#brigadelabs #date
+{
+    color: rgba(255, 255, 255, 0.325);
+
+    transition: color 0.25s;
+}
+#brigadelabs #date:hover
+{
+    color: #E0E0E0
+}
+
+#caveman
+{
+    background-color: #000;
+    color: #fff;
+}
+#caveman a
+{
+    color: #C00000;
+}
+#caveman a::after
+{
+    background-color: #C00000;
+}
+#caveman h2
+{
+    color: #8b0000;
+}
+#caveman img
+{
+    margin-top: -7.5vw;
+    width: 37.5%;
+}
+#caveman #date
+{
+    color: rgba(255, 255, 255, 0.325);
+}
+#caveman #date:hover
+{
+    color: #909090;
+}
+
+#date
+{
+    color: rgba(0, 0, 0, 0.325);
+    font-size: 1vw;
+    margin-top: 0.5vw;
+
+    transition: color 0.25s;
+}
+#date:hover
+{
+    color: #000;
+}
+
+#emd
+{
+    background-color: #314D79;
+    color: #fff;
+}
+#emd a
+{
+    color: #0484d1;
+}
+#emd a::after
+{
+    background-color: #0484d1;
+}
+#emd #date
+{
+    color: rgba(255, 255, 255, 0.325);
+}
+#emd #date:hover
+{
+    color: #fff;
+}
+
+#keycollect
+{
+    background-color: #000;
+    color: #fff;
+}
+#keycollect a
+{
+    color: #0326D1;
+}
+#keycollect a::after
+{
+    background-color: #0326D1;
+}
+#keycollect #date
+{
+    color: rgba(255, 255, 255, 0.325);
+}
+#keycollect #date:hover
+{
+    color: #fff;
+}
+
+#rebuild img
+{
+    width: 50%;
+}
+
+#trickortreat img
+{
+    width: 35%;
+}

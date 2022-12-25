@@ -1,0 +1,10 @@
+{
+    "projects":
+    [
+        {
+            "id": "new-website",
+            "name": "A new website has been made!",
+            "date": "12/25/2022"
+        }
+    ]
+}

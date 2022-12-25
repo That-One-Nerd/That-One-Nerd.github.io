@@ -2,81 +2,91 @@
 
 <html>
     <head>
-        <link href = "global/globalStyles.css" rel = "stylesheet" type = "text/css">
-        <link href = "index/styles.css" rel = "stylesheet" type = "text/css">
-        <link href = "global/images/favicon.ico" rel = "icon" type = "image/x-icon">
-        
+        <link type="image/x-icon" rel="icon" href="/images/favicon.ico">
+        <link type="text/css" rel="stylesheet" href="/css/global.css">
+        <link type="text/css" rel="stylesheet" href="/css/index.css">
+
+        <meta charset="utf-8">
+        <meta name="description" content="The home page of That_One_Nerd.">
+        <meta name="keywords" content="That_One_Nerd, That One Nerd, ThatOneNerd, That-One-Nerd">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
         <title>Home | That_One_Nerd</title>
     </head>
 
+    <!--header-->
+    
     <body>
-        <div class = "header whiteselection">
-            <a href = "index.html">Home</a>
-            <a href = "about.html">About</a>
-            <a href = "games.html">Games</a>
-            <a href = "links.html">Links</a>
-            <a href = "news.html">News</a>
-        </div>
-
-        <div class = "formattable title whiteselection">
+        <div id="title">
+            <img src="/images/logofullres.png">
             <h1>That_One_Nerd</h1>
         </div>
-        <div id = "title-triangle"></div>
+
+        <div class="line-spacer"></div>
+        <div class="line-spacer2"></div>
+
+        <div class="news" id="news-nerd_stf">
+            <div class="news-left">
+                <h2>Nerd_STF Version 2.3</h2>
+                <br>
+                <p><b>Nerd_STF version 2.3 has been released! This update adds lots of linear algebra tools, like matrixes and vectors, as well as new number systems, like complex numbers and quaternions.</b></p>
+                <br>
+                <p>Nerd_STF is a C# library that runs on .Net 6.0, and contains added structures and classes I feel would help the default C# library package.</p>
+                <br>
+                <p>It includes math structures as well as other computer science topics. Right now, it is mainly focused on mathematics and graphics, but will branch out in the future. It currently contains alternative vector types, colors, and shape objects that are rich in implementation.
+                <br><br>
+                <p><b>
+                    Find the repository <a href="https://github.com/That-One-Nerd/Nerd_STF" target="_blank">here</a> on GitHub,
+                    <br>
+                    and the package <a href="https://www.nuget.org/packages/Nerd_STF" target="_blank">here</a> on Nuget.
+                </b></p>
+            </div>
+            <div class="news-right">
+                <img src="/images/projects/nerdstf/logo.png">
+            </div>
+        </div>
         
-        <p style="text-align: center; margin-left: 10vw; margin-right: 10vw"><b>Just a head's up: this site is currently undergoing a complete remaking. This website will likely be completely changed within the next week or so.</b></p>
+        <div class="line-spacer"></div>
+        <div class="line-spacer2"></div>
 
-        <div class="formattable row">
-            <div class="column" id = "about-left">
-                <img src = "global/images/logo.png">
-            </div>
-
-            <div class="column" id = "about-right">
-                <h2 class = "nomargin">I am <i>not</i> a professional game developer.</h2>
-                <h3 class = "nomargin">(Not yet)</h3>
-                <p>
-                    Hey there, I'm Kyle, and I'm 14 years old. I am a programmer and game developer as a hobby. I've been programming in Unity and C# for about 2 years now, and I don't plan on stopping anytime soon. Most of my games will be free, because I don't need the money. I'm just here to make games that I would enjoy playing myself.
-                    <br>
-                    <br>
-                    I also make things other than games, like this website. This is my first successful website I made myself. No website generator this time, all the raw HTML and CSS. I'm also learning other languages right now, such as Java, C++, and Python.
-                    <br>
-                    <br>
-                    Also, FYI, all URLs on this website have a little underline to show you, and they open in a new tab. And no suspicious links. I don't want this site getting grouped up with other non-trustworthy sites. No ads here, either. Have fun.
-                </p>
-            </div>
+        <div class="news" id="news-arcade-maniac">
+            <img src="/images/projects/arcademaniac/logo.png">
+            <h2>Arcade Maniac</h2>
+            <p>Arcade Maniac is going to be a game based in an Arcade. There are going to be 20 games, all of which a different genre. You must complete at least 12 games to partial completion (slightly different per game) to beat it, but you get to choose which games to beat, or even choose to beat all of them. Each game has a partial completion split, but you can complete them to 100% if you'd like. This game will be free, but I will gladly accept donations!</p>
+            <br>
+            <p>Find more information on the <a href="https://arcademaniac.thatonenerd.net" target="_blank">website</a>, check out the <a href="https://that-one-nerd.itch.io/arcade-maniac" target="_blank">Itch</a> page, or find the <a href="https://github.com/That-One-Nerd/Arcade-Maniac" target="_blank">GitHub repository</a>!</p>
         </div>
+        
+        <div class="line-spacer"></div>
+        <div class="line-spacer2"></div>
 
-        <div class = "formattable whatido">
-            <h2>What kind of stuff do I do?</h2>
-            <p>
-                Whatever I feel like. Usually, some sort of new game, but I'll also work on other things, like libraries and other tools. I've recently gained interest in graphics programming (basically doing what Unity does myself). I've began learning OpenCV and OpenGL, but I'm not as good at that kind of stuff as my buddy <a href = "https://about.saalty.net/" target = "_blank">Saalty</a>, so credit for that goes to him.
-
-                I'll try to make any library I use myself, because I'm the kind of person that likes to re-invent the wheel. But I understand their use, and for more complicated things like <a href = "https://www.newtonsoft.com/json" target = "_blank">Json.Net</a> I won't try and recreate. For now. :)
-            </p>
-        </div>
-
-        <div id = "hiring-triangle-top"></div>
-        <div class = "formattable hiring whiteselection">
+        <div class="news" id="news-jobs">
             <h2>Want to hire me?</h2>
-            <p>
-                Unfortunately, I'm not up for full-on jobs yet, I'll wait a few more years first. But, if any company looking here is up for an internship in software development, I might be interested. You can email me at <a href = "mailto:dev@thatonenerd.net" target = "_blank">dev@thatonenerd.net</a>.
-            
-                Employers, you can also check out my <a href = "about.html">About Me</a> page for more information.
-            </p>
+            <p>I am not up for full-time jobs yet, unfortunately for some, but I may be available for part-time software development internships for those who are interested. Send me an email at <a href="mailto:kyle@thatonenerd.net">kyle@thatonenerd.net</a>! You can also check my <a href="/about.html">About Me</a> for more information.</p>
+            <img src="/images/logofullres.png">
         </div>
-        <div id = "hiring-triangle-bottom"></div>
+        
+        <div class="line-spacer"></div>
+        <div class="line-spacer2-darkgray"></div>
 
-        <div class = "formattable thelatest whiteselection whitelink">
-            <h2>What's the latest?</h2>
-            <ul>
-                <li>Just added some redirects. Expect an update for the links page soon!</li>
-                <li>New update of the index and the about page!</li>
-                <li>This first edition of this site has been made! More will come, probably.</li>
-            </ul>
-            <p>Want older announcements? Check out the <a class = "whitelink" href = "news.html">news</a> page!</p>
+        <div class="news" id="news-brigade-labs">
+            <div class="news-left">
+                <img src="/images/projects/brigadelabs/logo.png">
+            </div>
+            <div class="news-right">
+                <h2>Something new is coming...</h2>
+                <p>Don't worry, I haven't forgotten about Brigade Laboratories. Stay tuned, more is coming.</p>
+                <br>
+                <p>See the first teaser <a href="https://youtu.be/KVMNJAwnl9w" target="_blank">here</a> on Youtube.</p>
+            </div>
         </div>
-
-        <div class = "formattable footer whiteselection">
-            <h6 class = "nomargin"><b>That_One_Nerd</b> 2022</h6>
-        </div>
+        
+        <div class="line-spacer-darkgray-complete"></div>
+        <div class="line-spacer2-darkgray-complete"></div>
     </body>
+
+    <!--footer-->
+
+    <script type="module" src="js/imports.js"></script>
+    <script src="js/global.js" defer></script>
 </html>

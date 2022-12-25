@@ -1,2 +1,2 @@
-# Things like templates and stuff I don't need people to access publicly.
-private/
+# Personal stuff I use for website building
+/news/_template.html

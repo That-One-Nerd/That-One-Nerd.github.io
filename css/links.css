@@ -1,0 +1,93 @@
+.links
+{
+    margin-bottom: 4vw;
+}
+
+.link-row
+{
+    display: inline-flex;
+}
+.link-row div
+{
+    background-color: #eee;
+    border-radius: 0.25vw;
+    font-size: 1.125vw;
+    margin: 1.5vw;
+    padding: 2.5vw;
+}
+.link-row div h3
+{
+    margin-bottom: 1vw;
+}
+
+#arcademaniac h3
+{
+    color: #6FE700;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+#arcademaniac a
+{
+    color: #e72a00;
+}
+#arcademaniac a::after
+{
+    background-color: #e72a00;
+}
+
+#discord h3, #discord a
+{
+    color: #7389DC;
+}
+#discord a::after
+{
+    background-color: #7389DC;
+}
+
+#github h3, #github a
+{
+    color: #181818;
+}
+#github a::after
+{
+    background-color: #181818;
+}
+
+#itch h3, #itch a
+{
+    color: #FF5C5B;
+}
+#itch a::after
+{
+    background-color: #FF5C5B;
+}
+
+#saalty h3
+{
+    color: green;
+}
+#saalty a
+{
+    color: blue;
+}
+#saalty a::after
+{
+    background-color: blue;
+}
+
+#twitch h3, #twitch a
+{
+    color: #9147FF;
+}
+#twitch a::after
+{
+    background-color: #9147FF;
+}
+
+#youtube h3, #youtube a
+{
+    color: #FD0000;
+}
+#youtube a::after
+{
+    background-color: #FD0000;
+}

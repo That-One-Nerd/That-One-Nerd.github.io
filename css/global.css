@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+@import url('/css/icomoon.css');
+
+@font-face
+{
+    font-family: "Itch Pixel";
+    src: url("/fonts/itch/pixel.eot") format("embedded-opentype"),
+         url("/fonts/itch/pixel.woff2") format("woff2"),
+         url("/fonts/itch/pixel.woff") format("woff"),
+         url("/fonts/itch/pixel.ttf") format("truetype");
+}
+
+*
+{
+    font-family: 'Outfit', 'Readex Pro', 'Roboto', 'sans-serif';
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+a
+{
+    color: #FF6A00;
+    cursor: pointer;
+    position: relative;
+    text-decoration: none;
+}
+a::after
+{
+    background-color: #FF6A00;
+    bottom: 0;
+    content: '';
+    height: 0.08vw;
+    left: 0;
+    position: absolute;
+    transform: scale(0, 1);
+    transform-origin: bottom right;
+    width: 100%;
+
+    transition: transform 0.2s;
+}
+a:hover:after
+{
+    transform: scale(1, 1);
+    transform-origin: bottom left;
+}
+
+abbr
+{
+    cursor: help;
+}
+
+button
+{
+    background-color: #FF6A00;
+    border: 0;
+    border-radius: 0.26vw;
+    color: #000;
+    cursor: pointer;
+    font-size: 1vw;
+    padding: 0.26vw 0.52vw 0.26vw 0.52vw;
+
+    transition: color 0.25s;
+}
+button:hover
+{
+    color: #fff;
+}
+
+cmd
+{
+    background-color: rgba(0, 0, 0, 0.875);
+    border-radius: 0.25vw;
+    color: #D0D0D0;
+    padding: 0 0.25vw;
+    font-family: 'Consolas';
+}
+
+footer
+{
+    background-color: #303030;
+    color: #606060;
+    padding: 2.6vw 0 calc(6vw + 5vw) 13vw;
+    font-size: 1.15vw;
+    /* The 6vw is the max size of the lists, since they float. */
+    text-align: left;
+}
+footer *
+{
+    transition: color 0.2s;
+}
+footer *:hover
+{
+    color: #fff;
+}
+footer a
+{
+    color: #606060;
+}
+footer a::after
+{
+    background-color: #fff;
+}
+footer button
+{
+    background-color: #606060;
+    color: #909090;
+}
+footer ul
+{
+    list-style: none;
+}
+
+header
+{
+    background-color: #303030;
+    color: #fff;
+    font-size: 1.35vw;
+    left: 0;
+    padding: 0.57vw 11.45vw 0.57vw 0;
+    position: fixed;
+    right: 0;
+    text-align: center;
+    top: 0;
+    z-index: 1000;
+
+    transition: all 0.25s;
+}
+header a
+{
+    color: #fff;
+    margin: 0 1.06vw 0 1.06vw;
+}
+header img
+{
+    border-radius: 10px;
+    float: left;
+    margin-left: 4.25vw;
+    opacity: 0.625;
+    height: 1.72vw;
+    width: 1.72vw;
+
+    transition: all 0.25s;
+}
+header img:hover
+{
+    opacity: 1;
+}
+
+i
+{
+    color: #FF6A00;
+}
+
+img
+{
+    width: 100%;
+}
+
+.button-secondary
+{
+    background-color: #808080;
+}
+
+.dropdown
+{
+    background-color: #FF6A00;
+    border: 1px solid #ff9f5b;
+    font-size: 1.25vw;
+    font-weight: bold;
+    margin-bottom: 0;
+    overflow: hidden;
+    padding-top: 1vw;
+
+    transition: all 0.125s;
+}
+.dropdown:hover
+{
+    border: 3px solid rgba(0, 0, 0, 0.5);
+}
+.dropdown p
+{
+    margin: 0 15%;
+}
+
+.dropdown-body
+{
+    background-color: #ffc8a1;
+    border-top: solid #ff9f5b;
+    border-width: 0;
+    font-weight: normal;
+    height: 0;
+    font-size: 1.125vw;
+    margin-top: 1vw;
+
+    transition: height 0.5s;
+}
+.dropdown-body span
+{
+    padding: 1vw;
+}
+
+.dropdown-secondary
+{
+    background-color: #808080;
+    border: 1px solid #adadad;
+    justify-content: center;
+    margin: 0 auto;
+    padding-top: 0.5vw;
+    width: 62.5%;
+}
+.dropdown-secondary .dropdown-body
+{
+    background-color: #d1d1d1;
+    border-top: solid #adadad;
+    margin-top: 0.5vw;
+}
+
+.line-spacer
+{
+    border-bottom: 4vw solid;
+    border-left: 100vw solid;
+    border-color: #D0D0D0 transparent #D0D0D0 transparent;
+    margin-top: -4vw;
+}
+.line-spacer-darkgray
+{
+    border-bottom: 4vw solid;
+    border-left: 100vw solid;
+    border-color: #D0D0D0 #303030 #D0D0D0 #303030;
+    margin-top: -4vw;
+}
+.line-spacer-darkgray-complete
+{
+    border-bottom: 4vw solid;
+    border-left: 100vw solid;
+    border-color: #606060 #303030 #606060 #303030;
+    margin-top: -4vw;
+}
+.line-spacer2
+{
+    border-top: 4vw solid;
+    border-right: 100vw solid;
+    border-color: #D0D0D0 transparent #D0D0D0 transparent;
+    margin-top: 0;
+}
+.line-spacer2-darkgray
+{
+    border-top: 4vw solid;
+    border-right: 100vw solid;
+    border-color: #D0D0D0 #303030 #D0D0D0 #303030;
+    margin-top: 0;
+}
+.line-spacer2-darkgray-complete
+{
+    border-top: 4vw solid;
+    border-right: 100vw solid;
+    border-color: #606060 #303030 #606060 #303030;
+    margin-top: 0;
+}
+
+.no-link-underscore:after
+{
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#footer-logo
+{
+    filter: saturate(0);
+    height: 3.75vw;
+    width: 3.75vw;
+
+    transition: all 0.2s;
+}
+#footer-logo:hover
+{
+    filter: saturate(1);
+    height: 4.5vw;
+    width: 4.5vw;
+}
+#footer-misc-list
+{
+    float: left;
+    margin-left: 4vw;
+}
+#footer-name
+{
+    margin-bottom: 1.3vw;
+}
+#footer-page-list
+{
+    float: left;
+}
+#footer-to-top-button
+{
+    margin: 0.52vw 0 0.52vw 0;
+}
+
+#header-close
+{
+    font-size: 70%;
+    height: 1.72vw;
+    position: fixed;
+    right: 4.25vw;
+    rotate: 180deg;
+    top: 0.53vw;
+    width: 1.72vw;
+    z-index: 1100;
+
+    transition: color 0.25s, rotate 0.375s;
+}
+
+#title
+{
+    align-items: center;
+    background-image: url("../images/background.png");
+    background-position: center;
+    background-size: 100%;
+    color: #fff;
+    font-size: 2.5vw;
+    padding: 14.5vw 0 14.5vw 0;
+    text-align: center;
+
+    transition: background 0.5s;
+}
+#title:hover
+{
+    background-size: 110%;
+}

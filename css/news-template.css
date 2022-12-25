@@ -1,0 +1,15 @@
+.back
+{
+    background-color: #E0E0E0;
+    font-size: 1.25vw;
+    padding: 5vw;
+    margin: 5vw 30vw;
+    text-align: center;
+}
+
+.message p
+{
+    font-size: 1.5vw;
+    margin: 5vw 15vw;
+    text-align: center;
+}

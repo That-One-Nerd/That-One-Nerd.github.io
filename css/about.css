@@ -1,0 +1,53 @@
+.field
+{
+    font-size: 1.38vw;
+    padding: 5vw 15vw 5vw 15vw;
+    text-align: center;
+}
+
+.field ul
+{
+    font-size: 1.38vw;
+    margin: 1.3vw 5.2vw 1.3vw 5.2vw;
+}
+
+#intro
+{
+    padding-bottom: 13vw;
+}
+#intro img
+{
+    width: 25%;
+}
+#intro-left
+{
+    float: left;
+    text-align: left;
+}
+#intro-right
+{
+    float: right;
+    margin-left: 15.625vw;
+    margin-top: -15vw;
+    text-align: right;
+}
+
+#interests
+{
+    text-align: left;
+}
+
+#skills-float
+{
+    margin-bottom: 2.6vw;
+}
+#skills-float-left
+{
+    float: left;
+    text-align: left;
+}
+#skills-float-right
+{
+    float: right;
+    text-align: right;
+}

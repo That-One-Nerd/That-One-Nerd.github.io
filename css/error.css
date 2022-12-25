@@ -1,0 +1,36 @@
+body
+{
+    background-color: #E0E0E0;
+    font-size: 1.25vw;
+}
+
+.box
+{
+    margin-top: 10vw;
+    text-align: center;
+}
+.box h2
+{
+    font-size: 2.5vw;
+    margin-bottom: 2vw;
+}
+
+#headertext
+{
+    left: 0;
+    position: fixed;
+    right: 0;
+    text-align: center;
+    top: -1.75vw;
+
+    transition: top 0.5s;
+}
+
+#headertext2a, #headertext2b
+{
+    left: 0;
+    position: fixed;
+    right: 0;
+    text-align: center;
+    top: -1.75vw;
+}

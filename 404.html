@@ -1,26 +1,32 @@
 <!DOCTYPE html>
 
 <html>
-    <head>        
-        <link href = "global/globalStyles.css" rel = "stylesheet" type = "text/css">
-        <link href = "404/styles.css" rel = "stylesheet" type = "text/css">
-        <link href = "global/images/favicon.ico" rel = "icon" type = "image/x-icon">
+    <head>
+        <link type="image/x-icon" rel="icon" href="/images/favicon.ico">
+        <link type="text/css" rel="stylesheet" href="/css/global.css">
+        <link type="text/css" rel="stylesheet" href="/css/error.css">
 
-        <title>404 | That_One_Nerd</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>How did we get here? | That_One_Nerd</title>
     </head>
-    <body>
-        <div class = "header whiteselection">
-            <a href = "index.html">Home</a>
-            <a href = "about.html">About</a>
-            <a href = "games.html">Games</a>
-            <a href = "links.html">Links</a>
-            <a href = "news.html">News</a>
-        </div>
 
-        <div class = "formattable showtext">
-            <h1 class = "nomargin">404 - We can't find the page.</h1>
-            <h3 class = "nomargin">Maybe you misspelled the URL?</h3>
-            <p>Click <a href = "index.html">here</a> to return to the home page.</p>
+    <!--header-->
+
+    <body>
+        <p id="headertext">&#8639; Or you can go to any of these places, I guess. &#8638;</p>
+        <p id="headertext2a">Hey, I opened the header for your convenience, you know. Close it when you go somewhere.</p>
+        <p id="headertext2b">You know, the header has a bunch of links to help you find your way out of here. It might be useful.</p>
+
+        <div class="box js-check-vars">
+            <h2>Whoops, looks like you got lost.</h2>
+            <h3>Can't find %url%. Not sure how you even got here.</h3>
+            <p>Here's my ultimatum: either go <button onclick="goHome()">home</button> or go <button onclick="goBack()">back a page</button>.</p>
         </div>
     </body>
+
+    <script type="module" src="/js/imports.js"></script>
+    <script src="/js/global.js" defer></script>
+    <script src="/js/error.js" defer></script>
 </html>

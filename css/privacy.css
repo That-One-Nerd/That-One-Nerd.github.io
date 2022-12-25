@@ -1,0 +1,23 @@
+.privacy
+{
+    font-size: 1.475vw;
+    margin: 0 18.25vw 7.8125vw 18.25vw;
+    text-align: center;
+}
+.privacy ul, .privacy ol
+{
+    margin: 0 13vw 0 13vw;
+    text-align: left;
+}
+.privacy li
+{
+    margin: 0.78vw 0 0.78vw 0;
+}
+.privacy p
+{
+    margin: 1.3vw 0 1.3vw 0;
+}
+#intro
+{
+    margin-top: 6.51vw;
+}

@@ -1,0 +1,48 @@
+.news-object
+{
+    background-color: #e0e0e0;
+    border-radius: 0.25vw;
+    display: inline-flex;
+    font-size: 1.375vw;
+    margin: 0.5vw;
+    padding: 1vw;
+    width: 97vw;
+}
+.news-object #arrow
+{
+    margin-left: 1vw;
+}
+.news-object #date
+{
+    color: rgba(0, 0, 0, 0.5);
+    margin-left: auto;
+
+    transition: color 0.25s;
+}
+.news-object #date:hover
+{
+    color: rgba(0, 0, 0, 1);
+}
+.news-object #name
+{
+    color: #000;
+}
+.news-object #name::after
+{
+    background-color: #000;
+    height: 0.15vw;
+}
+
+#end-message
+{
+    font-size: 1.125vw;
+    margin: 2.5vw 0 6.5vw 0;
+    text-align: center;
+}
+
+#wait-message
+{
+    font-size: 1.25vw;
+    margin: 7.5vw 25vw;
+    text-align: center;
+}
