@@ -2,8 +2,11 @@
 {
     --background-color-1: #101010;
     --background-color-2: #000;
+    --more-info-background-color: #191919;
     --text-color: #e4e4e4;
     --link-color: #0326d1;
+    --text-shadow: #2245f0;
+    --tint-color: rgba(255, 255, 255, 0.5);
 }
 
 body
@@ -55,12 +58,16 @@ body
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 0.15vw;
     box-shadow: inset 0 0 2px rgba(255, 255, 255, 0.2);
-    color: #fff;
+    color: var(--text-color);
     font-size: calc(0.85vw * 0.9);
     font-weight: bold;
     margin-right: 1vw;
     padding: 0.5vw 0.625vw;
-    text-shadow: 0 1px 0 #2245f0;
+    text-shadow: 0 1px 0 var(--text-shadow);
+}
+.download-button:hover
+{
+    color: var(--text-color);
 }
 
 .download-option
@@ -72,31 +79,42 @@ body
 {
     align-items: center;
     display: flex;
-    font-weight: bold;;
+    font-weight: bold;
 }
 .download-option #fileicon
 {
     align-items: center;
-    color: rgba(255, 255, 255, 0.5);
+    color: var(--tint-color);
     display: flex;
     margin-right: 1vw;
 }
 .download-option #filesize
 {
     align-items: center;
-    color: rgba(255, 255, 255, 0.5);
+    color: var(--tint-color);
     display: flex;
     margin: 0 1vw;
 }
 .download-option #platforms
 {
     align-items: center;
-    color: rgba(255, 255, 255, 0.5);
+    color: var(--tint-color);
     display: flex;
 }
 .downloads
 {
     list-style: none;
+}
+
+.install-instructions
+{
+    margin-top: 2.5vw;
+}
+.install-instructions #words
+{
+    background-color: var(--more-info-background-color);
+    border-radius: 0.375vw;
+    padding: 1.25vw;
 }
 
 #body-images
@@ -115,7 +133,7 @@ body
 }
 #body-more-info
 {
-    background-color: #191919;
+    background-color: var(--more-info-background-color);
     border-radius: 0.25vw;
     margin-right: 1vw;
     margin-top: 0.325vw;
@@ -144,14 +162,14 @@ body
 #body-text
 {
     float: left;
-    height: 1000px;
+    height: max-content;
     width: 60%;
 }
 
 #download-price
 {
     align-items: center;
-    color: rgba(255, 255, 255, 0.5);
+    color: var(--tint-color);
     display: flex;
     margin-left: 0.5vw;
 }

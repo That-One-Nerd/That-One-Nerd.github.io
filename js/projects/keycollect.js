@@ -29,6 +29,7 @@ function goToDownloads()
 function downloadFile(name)
 {
     name = name.toLowerCase();
+    while (name.includes(" ")) name = name.replace(" ", "_");
     window.location.href = "/data/projects/keycollect/" + name;
 }
 

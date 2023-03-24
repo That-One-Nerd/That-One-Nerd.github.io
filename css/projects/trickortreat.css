@@ -1,0 +1,191 @@
+:root
+{
+    --background-color-1: #141414;
+    --background-color-2: #fb922b;
+    --more-info-background-color: #ea811a;
+    --text-color: #323232;
+    --link-color: #ffffff;
+    --text-shadow: #ffffff;
+    --tint-color: rgba(0, 0, 0, 0.5);
+}
+
+body
+{
+    background-color: var(--background-color-1);
+}
+
+.body
+{
+    background-color: var(--background-color-2);
+    color: var(--text-color);
+    display: table;
+    font-size: 0.85vw;
+    margin: 0 25vw 0 25vw;
+    padding: 1vw 1vw 1vw 1vw;
+    width: 50%;
+    text-align: left;
+}
+.body *
+{
+    font-family: 'Itch Pixel';
+}
+.body a
+{
+    color: var(--link-color);
+}
+.body a::after
+{
+    background-color: var(--link-color);
+}
+.body b
+{
+    color: var(--link-color);
+    font-weight: normal;
+}
+.body br
+{
+    margin-bottom: 1vw;
+}
+.body h2
+{
+    margin-bottom: 1vw;
+    padding-top: 3vw;
+}
+
+.devlogs #list
+{
+    line-height: 1.4;
+    list-style: none;
+}
+.devlogs #list li #date
+{
+    color: var(--tint-color);
+    font-size: 0.65vw;
+}
+
+.download-button
+{
+    background-color: var(--link-color);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.15vw;
+    box-shadow: inset 0 0 2px rgba(255, 255, 255, 0.2);
+    color: var(--text-color);
+    font-size: calc(0.85vw * 0.9);
+    font-weight: bold;
+    margin-right: 1vw;
+    padding: 0.5vw 0.625vw;
+    text-shadow: 0 1px 0 var(--text-shadow);
+}
+.download-button:hover
+{
+    color: var(--text-color);
+}
+
+.download-option
+{
+    display: inline-flex;
+    padding-top: 0.625vw;
+}
+.download-option #name
+{
+    align-items: center;
+    display: flex;
+    font-weight: bold;
+}
+.download-option #fileicon
+{
+    align-items: center;
+    color: var(--tint-color);
+    display: flex;
+    margin-right: 1vw;
+}
+.download-option #filesize
+{
+    align-items: center;
+    color: var(--tint-color);
+    display: flex;
+    margin: 0 1vw;
+}
+.download-option #platforms
+{
+    align-items: center;
+    color: var(--tint-color);
+    display: flex;
+}
+.downloads
+{
+    list-style: none;
+}
+
+.install-instructions
+{
+    margin-top: 2.5vw;
+}
+.install-instructions #words
+{
+    background-color: var(--more-info-background-color);
+    border-radius: 0.375vw;
+    padding: 1.25vw;
+}
+
+#body-images
+{
+    float: right;
+    margin-top: 5.325vw;
+    width: 40%;
+}
+#body-images a::after
+{
+    background-color: rgba(0, 0, 0, 0);
+}
+#body-images img
+{
+    width: 100%;
+}
+#body-more-info
+{
+    background-color: var(--more-info-background-color);
+    border-radius: 0.25vw;
+    margin-right: 1vw;
+    margin-top: 0.325vw;
+    padding: 0 1vw 0vw 1vw;
+    overflow: hidden;
+
+    transition: height 0.5s;
+}
+#body-more-info table
+{
+    padding: 1vw 0;
+}
+#body-more-info table td:first-child
+{
+    padding-right: 0.25vw;
+    font-size: calc(0.85vw * 0.9);
+    font-weight: bold;
+    opacity: 0.7;
+    text-align: right;
+}
+#body-more-info table td:last-child
+{
+    padding-left: 0.25vw;
+    text-align: left;
+}
+#body-text
+{
+    float: left;
+    height: max-content;
+    width: 60%;
+}
+
+#download-price
+{
+    align-items: center;
+    color: var(--tint-color);
+    display: flex;
+    margin-left: 0.5vw;
+}
+#download-row
+{
+    display: inline-flex;
+    margin-bottom: 2vw;
+}

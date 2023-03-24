@@ -1,0 +1,35 @@
+.description
+{
+    font-size: 1.125vw;
+    padding: 5vw 10vw;
+    text-align: center;
+}
+
+.downloads
+{
+    padding: 5vw 10vw;
+}
+.downloads h2
+{
+    font-size: 1.75vw;
+}
+.download-item
+{
+    background-color: #e0e0e0;
+    border-radius: 0.5vw;
+    display: flex;
+    margin: 1vw;
+    padding: 1vw;
+}
+.download-item-left
+{
+    font-size: 1.125vw;
+    margin-right: auto;
+    vertical-align: center;
+}
+.download-item-right
+{
+    font-size: 1.125vw;
+    margin-left: auto;
+    vertical-align: center;
+}

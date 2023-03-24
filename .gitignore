@@ -1,2 +1,8 @@
 # Personal stuff I use for website building
 /news/_template.html
+
+# Debug runner
+/node_modules
+package.json
+package-lock.json
+server.js
