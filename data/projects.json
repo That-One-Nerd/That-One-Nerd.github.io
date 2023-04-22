@@ -14,14 +14,14 @@
             "img": "<img src=\"/images/projects/nerdstf/logo.png\" title=\"Nerd_STF Logo\">",
             "name": "Nerd_STF",
             "description": "Nerd_STF is a multi-purpose .NET library I maintain solo. It has math tools like an integral or derivative solver, matrix multiplication, complex numbers (and quaternions), and more. It also has some graphics stuff, like multiple color types (RGB, CMYK, HSV), and image support.",
-            "link": "/projects/nerdstf.html",
+            "link": "https://github.com/That-One-Nerd/Nerd_STF",
             "date": "still going!"
         },
         {
             "id": "website",
             "name": "thatonenerd.net",
             "description": "You know, the website that you're looking at right now. I don't think this needs a description.",
-            "link": "/projects/website.html",
+            "link": "https://thatonenerd.net/",
             "date": "still going!"
         },
         {
@@ -29,7 +29,7 @@
             "img": "<img src=\"/images/projects/arcademaniac/logo.png\" title=\"Arcade Maniac Logo\">",
             "name": "Arcade Maniac",
             "description": "Arcade Maniac is a game about beating many different minigames, all of which are a different genre. There are 20 different minigames, but you only need to do at least 12 to half completion.<br>Doing more is always an option, though!",
-            "link": "/projects/arcademaniac.html",
+            "link": "https://that-one-nerd.itch.io/arcade-maniac",
             "date": "January 11th, 2022"
         },
         {
@@ -37,7 +37,7 @@
             "img": "<img src=\"/images/projects/caveman/logo.png\" title=\"The Caveman Logo\">",
             "name": "The Caveman",
             "description": "The Caveman is a commissioned game by my friend <a href=\"https://about.saalty.net\" target=\"_blank\">Saalty</a>. It's a horror game about entering a cave in the dead of night and being chased by a madman who lives in there.",
-            "link": "/projects/caveman.html",
+            "link": "https://that-one-nerd.itch.io/the-caveman",
             "date": "August 1st, 2021"
         },
         {
@@ -45,7 +45,7 @@
             "img": "<img src=\"/images/projects/sneakandseek/logo.png\" title=\"SneakAndSeek Remastered Logo\">",
             "name": "SneakAndSeek Remastered",
             "description": "SneakAndSeek is a game I made for the <a href=\"https://itch.io/jam/pb-game-jam-4\" target=\"_blank\">PB Game Jab 4</a>. You're a ninja trying to escape an evil laboratory, and have to dodge a bunch of robots with different types lasers on them.",
-            "link": "/projects/sneakandseek.html",
+            "link": "https://that-one-nerd.itch.io/sneakandseek",
             "date": "May 31st, 2021"
         },
         {
@@ -53,7 +53,7 @@
             "img": "<img src=\"/images/projects/emd/logo.png\" title=\"Entity March Dream Remastered Logo\">",
             "name": "Entity March Dream Remastered",
             "description": "Entity March Dream was the very first game I made. It's just a simple parkour game. You're a cube, and you're trying to stand on the green platform. Why? No clue, make up a story yourself if you care.",
-            "link": "/projects/emd.html",
+            "link": "https://that-one-nerd.itch.io/entitymarchdream",
             "date": "June 25th, 2021"
         },
         {
@@ -61,7 +61,7 @@
             "img": "<img src=\"/images/projects/rebuild/logo.png\" title=\"Rebuild Logo\">",
             "name": "Rebuild",
             "description": "Rebuild is a game about collecting radioactive waste and selling it for money. You can use that money to upgrade how much you can collect, how fast, and how much money you get for it.",
-            "link": "/projects/rebuild.html",
+            "link": "https://that-one-nerd.itch.io/rebuild",
             "date": "April 2nd, 2021"
         },
         {
