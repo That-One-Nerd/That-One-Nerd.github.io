@@ -10,6 +10,11 @@
             "id": "quick-update-4-22-23",
             "name": "Just a quick update for the projects.",
             "date": "4/22/2023"
+        },
+        {
+            "id": "ap-exam",
+            "name": "The AP Computer Science exam is right around the corner!",
+            "date": "5/1/2023"
         }
     ]
 }

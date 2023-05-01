@@ -5,6 +5,11 @@ const examStart = new Date("May 3, 2023 12:00");
 const examEnd = new Date("May 3, 2023 15:15");
 
 const examElement = document.createElement("h3");
+const examLink = document.createElement("a");
+examElement.append(examLink);
+examLink.href = "/news/ap-exam.html";
+examLink.id = "ap-timer";
+examLink.target = "_blank";
 if (title != undefined)
 {
     // Add the newly created AP exam countdown element.
@@ -58,6 +63,5 @@ function updateCountdown()
             string += " since the AP exam has been completed!";
             break;
     }
-
-    examElement.textContent = string;
+    examLink.textContent = string;
 }
