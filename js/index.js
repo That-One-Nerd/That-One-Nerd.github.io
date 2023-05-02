@@ -2,7 +2,7 @@ const title = document.getElementById("title");
 
 // This is for the AP exam timer.
 const examStart = new Date("May 3, 2023 12:00");
-const examEnd = new Date("May 3, 2023 15:15");
+const examEnd = new Date("May 3, 2023 15:30");
 
 const examElement = document.createElement("h3");
 const examLink = document.createElement("a");
